@@ -14,8 +14,6 @@ function App() {
       <Route path="/notes" element={<NoteList />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-        {/* <Route path="/notes/create" component={CreateNotePage} />
-        <Route path="/notes/edit/:id" component={EditNotePage} /> */}
       </Routes>
     </Router>
     </div> 	
